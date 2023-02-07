@@ -4,6 +4,7 @@ import {Helmet} from "react-helmet";
 import {BrowserRouter, createBrowserRouter, Link, Route} from "react-router-dom";
 import PageOne from "./components/page-one";
 import PageTwo from "./components/page-two";
+import Home from "./components/home";
 
 
 
