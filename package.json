@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "esbuild app.js --bundle --outfile=out.js",
+    "build": "esbuild --bundle ./src/App.js --outfile=dist/output.js --loader:.js=jsx --loader:.svg=text --minify",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
